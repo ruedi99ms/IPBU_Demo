@@ -1,0 +1,176 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8758273224870880264
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8268736135544323762}
+  - component: {fileID: 5003402574519415063}
+  - component: {fileID: 7100874137904727517}
+  - component: {fileID: 8363150169393035262}
+  - component: {fileID: 4744266920751772547}
+  - component: {fileID: 6379736892038953102}
+  - component: {fileID: 1435621775860134963}
+  - component: {fileID: 627586497913198114}
+  m_Layer: 0
+  m_Name: food truck 2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8268736135544323762
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8758273224870880264}
+  m_LocalRotation: {x: 0.000000021855694, y: 0, z: -0, w: 1}
+  m_LocalPosition: {x: -10.870136, y: 1.562, z: 10.507174}
+  m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &5003402574519415063
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8758273224870880264}
+  m_Mesh: {fileID: 5250498273798609997, guid: a049a492638ac5845aa885f43d82e30d, type: 3}
+--- !u!23 &7100874137904727517
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8758273224870880264}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 2c6276cffb6717443b375b4a88c690c5, type: 2}
+  - {fileID: 2100000, guid: dac429fe53456364b986aa1a80978bfd, type: 2}
+  - {fileID: 2100000, guid: 6a01e4e0a5cd45142bf8412fa6fb02f7, type: 2}
+  - {fileID: 2100000, guid: 8c7ff60f3f8df5647a468c2a6e6c9fb0, type: 2}
+  - {fileID: 2100000, guid: c39f1268d70935c419c0e73150e079d7, type: 2}
+  - {fileID: 2100000, guid: 46a940a2c49fc114cbeefc4fff974f68, type: 2}
+  - {fileID: 2100000, guid: 46a940a2c49fc114cbeefc4fff974f68, type: 2}
+  - {fileID: 2100000, guid: 21b15be56a80bdc46968936dcf2d1932, type: 2}
+  - {fileID: 2100000, guid: 73d92507ef55aed41821136be34cd70a, type: 2}
+  - {fileID: 2100000, guid: 2fc2c3914a6932d4499959f190a7f75e, type: 2}
+  - {fileID: 2100000, guid: 3cf3ab0a2063d3e4e876ffc467f95bb0, type: 2}
+  - {fileID: 2100000, guid: 21b15be56a80bdc46968936dcf2d1932, type: 2}
+  - {fileID: 2100000, guid: c9134a7680830224785cdb9b83c15b73, type: 2}
+  - {fileID: 2100000, guid: ee49368e0e34b1d448b0c5369b05f8f3, type: 2}
+  - {fileID: 2100000, guid: bbd216a5ae738e648b7f5b5a7c1e6eb3, type: 2}
+  - {fileID: 2100000, guid: fe00bd1333bc5c74e8b1f24123df41ad, type: 2}
+  - {fileID: 2100000, guid: 62146ab15a91a1341a5edb97cca55045, type: 2}
+  - {fileID: 2100000, guid: 981456fccea900443821622fb73ab686, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &8363150169393035262
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8758273224870880264}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 248.00186, y: 329.3059, z: 827.7927}
+  m_Center: {x: 96.007065, y: 7.1152205, z: -261.1552}
+--- !u!65 &4744266920751772547
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8758273224870880264}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 118.31112, y: 25.744158, z: 212.11853}
+  m_Center: {x: -57.199, y: 80.511475, z: -435.02628}
+--- !u!65 &6379736892038953102
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8758273224870880264}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 118.31112, y: 25.744158, z: 212.11853}
+  m_Center: {x: -57.199, y: 80.511475, z: -81.67}
+--- !u!65 &1435621775860134963
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8758273224870880264}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 34.22594, y: 91.30198, z: 113.780685}
+  m_Center: {x: 97.43228, y: -111.886734, z: -727.8989}
+--- !u!205 &627586497913198114
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8758273224870880264}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: 51.82675, y: 7.115219, z: -316.02454}
+  m_Size: 937.5316
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.07909967
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 7100874137904727517}
+  m_Enabled: 1

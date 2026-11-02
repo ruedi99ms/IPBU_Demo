@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &8935763220262283390
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 7418058128909861078, guid: c72fcf996d75f7340ab5abe5f9a134a9,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7418058128909861078, guid: c72fcf996d75f7340ab5abe5f9a134a9,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -946.09454
+      objectReference: {fileID: 0}
+    - target: {fileID: 7418058128909861078, guid: c72fcf996d75f7340ab5abe5f9a134a9,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 172.77046
+      objectReference: {fileID: 0}
+    - target: {fileID: 7418058128909861078, guid: c72fcf996d75f7340ab5abe5f9a134a9,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1348.4054
+      objectReference: {fileID: 0}
+    - target: {fileID: 7418058128909861078, guid: c72fcf996d75f7340ab5abe5f9a134a9,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7418058128909861078, guid: c72fcf996d75f7340ab5abe5f9a134a9,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7418058128909861078, guid: c72fcf996d75f7340ab5abe5f9a134a9,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7418058128909861078, guid: c72fcf996d75f7340ab5abe5f9a134a9,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7418058128909861078, guid: c72fcf996d75f7340ab5abe5f9a134a9,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7418058128909861078, guid: c72fcf996d75f7340ab5abe5f9a134a9,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7418058128909861078, guid: c72fcf996d75f7340ab5abe5f9a134a9,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7418058128909861081, guid: c72fcf996d75f7340ab5abe5f9a134a9,
+        type: 3}
+      propertyPath: m_Name
+      value: Concert Spread
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c72fcf996d75f7340ab5abe5f9a134a9, type: 3}

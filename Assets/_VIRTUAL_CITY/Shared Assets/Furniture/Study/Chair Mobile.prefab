@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &5864577380187140264
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2927959651600730594, guid: 80824cc5740533c48af270e7b0b4b30a, type: 3}
+      propertyPath: assetId
+      value: 10062b94987259c4c902694456fbe142
+      objectReference: {fileID: 0}
+    - target: {fileID: 4262643876150836617, guid: 80824cc5740533c48af270e7b0b4b30a, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4262643876150836617, guid: 80824cc5740533c48af270e7b0b4b30a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4262643876150836617, guid: 80824cc5740533c48af270e7b0b4b30a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4262643876150836617, guid: 80824cc5740533c48af270e7b0b4b30a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4262643876150836617, guid: 80824cc5740533c48af270e7b0b4b30a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4262643876150836617, guid: 80824cc5740533c48af270e7b0b4b30a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4262643876150836617, guid: 80824cc5740533c48af270e7b0b4b30a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4262643876150836617, guid: 80824cc5740533c48af270e7b0b4b30a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4262643876150836617, guid: 80824cc5740533c48af270e7b0b4b30a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4262643876150836617, guid: 80824cc5740533c48af270e7b0b4b30a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4262643876150836617, guid: 80824cc5740533c48af270e7b0b4b30a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4686369567167503956, guid: 80824cc5740533c48af270e7b0b4b30a, type: 3}
+      propertyPath: cursor.cadCursor
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6044712930423773568, guid: 80824cc5740533c48af270e7b0b4b30a, type: 3}
+      propertyPath: m_Name
+      value: Chair Mobile
+      objectReference: {fileID: 0}
+    - target: {fileID: 8026528663547551141, guid: 80824cc5740533c48af270e7b0b4b30a, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ba99122e717866c4c85735bc7eacb58b, type: 2}
+    m_RemovedComponents:
+    - {fileID: 2927959651600730594, guid: 80824cc5740533c48af270e7b0b4b30a, type: 3}
+    - {fileID: 4686369567167503956, guid: 80824cc5740533c48af270e7b0b4b30a, type: 3}
+    - {fileID: 2746816769291517306, guid: 80824cc5740533c48af270e7b0b4b30a, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: 80824cc5740533c48af270e7b0b4b30a, type: 3}

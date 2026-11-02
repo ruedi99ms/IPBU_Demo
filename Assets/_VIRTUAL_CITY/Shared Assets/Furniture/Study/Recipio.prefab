@@ -1,0 +1,199 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1279178390271083292
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8528867141345443140}
+  - component: {fileID: 4422502445720254494}
+  - component: {fileID: 7910097507047866468}
+  - component: {fileID: 3189503555687057995}
+  - component: {fileID: 2040853991058696119}
+  m_Layer: 0
+  m_Name: Recipio
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8528867141345443140
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1279178390271083292}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 7060653015073452398}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &4422502445720254494
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1279178390271083292}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.68, y: 0.6620904, z: 0.48}
+  m_Center: {x: 0, y: 0.32973427, z: 0}
+--- !u!114 &7910097507047866468
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1279178390271083292}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55d38626c041fda488dd3702021bf51a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  assetId: f0f2f8b4d6ca234459606675a27d1050
+  instanceId: -1
+  type: {fileID: 11400000, guid: 7c9d08119db22e64fa16464a77a8449a, type: 2}
+  description: 
+  icon: {fileID: 21300000, guid: a70011a3addc9414e92fecea5b191306, type: 3}
+  detailLevel: -1
+  allowMeshExport: 0
+  useActionWheel: 1
+  alwaysSelectable: 0
+  selectionRestriction: 0
+--- !u!114 &3189503555687057995
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1279178390271083292}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a94361fb34de3c64cbd5d2c4f6efa3e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cursorType: 4
+  onStartHover:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: Numena.Architecture.Interaction.GrabbableObject+UIEvent, Assembly-CSharp,
+      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  onEndHover:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: Numena.Architecture.Interaction.GrabbableObject+UIEvent, Assembly-CSharp,
+      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  onCancelHover:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: Numena.Architecture.Interaction.GrabbableObject+UIEvent, Assembly-CSharp,
+      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  onStartInteraction:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: Numena.Architecture.Interaction.GrabbableObject+UIEvent, Assembly-CSharp,
+      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  onEndInteraction:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: Numena.Architecture.Interaction.GrabbableObject+UIEvent, Assembly-CSharp,
+      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  onCancelInteraction:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: Numena.Architecture.Interaction.GrabbableObject+UIEvent, Assembly-CSharp,
+      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+--- !u!114 &2040853991058696119
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1279178390271083292}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6d6e1e88c3e7cd4dabd744057ed8537, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  instanceId: 
+  assetId: 
+  type: 
+  position: {x: 0, y: 0, z: 0}
+  rotation: {x: 0, y: 0, z: 0, w: 0}
+--- !u!1001 &7060653015073057774
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 8528867141345443140}
+    m_Modifications:
+    - target: {fileID: 100000, guid: d17b6235653436d4d9180e8bf2708182, type: 3}
+      propertyPath: m_Name
+      value: Recipio
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: d17b6235653436d4d9180e8bf2708182, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.0004866637
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: d17b6235653436d4d9180e8bf2708182, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.0014380189
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: d17b6235653436d4d9180e8bf2708182, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.000078566176
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: d17b6235653436d4d9180e8bf2708182, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: d17b6235653436d4d9180e8bf2708182, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: d17b6235653436d4d9180e8bf2708182, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: d17b6235653436d4d9180e8bf2708182, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: d17b6235653436d4d9180e8bf2708182, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: d17b6235653436d4d9180e8bf2708182, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: d17b6235653436d4d9180e8bf2708182, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: d17b6235653436d4d9180e8bf2708182, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: d17b6235653436d4d9180e8bf2708182, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 2d1fcb99f03f8e14f85eccb3f5dfb25f, type: 2}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d17b6235653436d4d9180e8bf2708182, type: 3}
+--- !u!4 &7060653015073452398 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: d17b6235653436d4d9180e8bf2708182,
+    type: 3}
+  m_PrefabInstance: {fileID: 7060653015073057774}
+  m_PrefabAsset: {fileID: 0}
